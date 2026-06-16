@@ -1,0 +1,50 @@
+   ▲ Next.js 15.5.19
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.0.114:3000
+
+ ✓ Starting...
+ ✓ Ready in 14s
+ ○ Compiling / ...
+ ✓ Compiled / in 10.5s (638 modules)
+ GET / 200 in 16044ms
+ HEAD / 200 in 706ms
+ ○ Compiling /icon.svg ...
+ ✓ Compiled /icon.svg in 1858ms (403 modules)
+ GET /icon.svg?b337f9c0eb29306a 200 in 2785ms
+ HEAD / 200 in 1689ms
+ ○ Compiling /menu ...
+ ✓ Compiled /menu in 2.1s (662 modules)
+ HEAD /menu 200 in 4678ms
+ GET / 200 in 1271ms
+ GET /icon.svg?b337f9c0eb29306a 200 in 357ms
+ GET /icon.svg?b337f9c0eb29306a 200 in 156ms
+ GET / 200 in 1744ms
+ GET /menu 200 in 3095ms
+ ✓ Compiled in 2.2s (645 modules)
+ GET /menu 200 in 1637ms
+ ✓ Compiled in 2.5s (644 modules)
+ GET /menu 200 in 1941ms
+ GET /menu 200 in 5521ms
+ ✓ Compiled in 567ms (253 modules)
+ ○ Compiling /icon.svg ...
+ ✓ Compiled /icon.svg in 569ms (408 modules)
+ GET /icon.svg?b337f9c0eb29306a 200 in 1371ms
+ ✓ Compiled in 622ms (253 modules)
+ GET /menu 200 in 1422ms
+ GET /icon.svg?b337f9c0eb29306a 200 in 31ms
+ GET /icon.svg?b337f9c0eb29306a 200 in 24ms
+ ✓ Compiled in 7.4s (661 modules)
+ GET /menu 200 in 1668ms
+ ✓ Compiled in 473ms (253 modules)
+ GET /menu 200 in 1578ms
+ HEAD / 200 in 1358ms
+ ○ Compiling /privacy ...
+ ✓ Compiled /privacy in 3.3s (649 modules)
+ HEAD /menu 200 in 5748ms
+ HEAD /privacy 200 in 6127ms
+ ○ Compiling /cookie ...
+ ✓ Compiled /cookie in 1255ms (634 modules)
+ HEAD /cookie 200 in 2869ms
+ GET / 200 in 1884ms
+ GET /menu 200 in 4887ms
+ GET / 200 in 1457ms

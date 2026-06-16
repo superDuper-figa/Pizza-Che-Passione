@@ -1,0 +1,3 @@
+ ⚠ Attempted to load C:\Users\LUCA\OneDrive\Documenti\App_Organizzazione\node_modules\next\next-swc-fallback\@next\swc-win32-x64-msvc\next-swc.win32-x64-msvc.node, but it was not installed
+ ⚠ Attempted to load @next/swc-win32-x64-msvc, but it was not installed
+ ⚠ Fast Refresh had to perform a full reload when eria_Prima_donna\\components\\site-header.tsx","ids":["SiteHeader"]} changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
