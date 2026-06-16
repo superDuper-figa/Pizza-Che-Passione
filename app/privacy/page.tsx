@@ -1,4 +1,5 @@
 import { SiteHeader } from "@/components/site-header";
+import Link from "next/link";
 
 export const metadata = {
   title: "Privacy Policy"
@@ -13,16 +14,16 @@ export default function PrivacyPage() {
       <SiteHeader mapsUrl={mapsUrl} initialTone="light" />
       <section data-nav-tone="light" className="px-5 pb-16 pt-32">
         <div className="mx-auto max-w-3xl">
-          <a href="/" className="text-sm font-bold uppercase tracking-[0.14em] text-tomato">
+          <Link href="/" className="text-sm font-bold uppercase tracking-[0.14em] text-tomato">
             Torna al sito
-          </a>
-        <h1 className="mt-8 font-display text-5xl">Privacy Policy</h1>
-        <p className="mt-6 leading-8 text-charcoal/72">
-          Pagina informativa predisposta per il pacchetto vetrina. Prima della
-          pubblicazione definitiva va completata con ragione sociale, contatti
-          del titolare, strumenti analytics effettivamente installati e gestione
-          dei consensi.
-        </p>
+          </Link>
+          <h1 className="mt-8 font-display text-5xl">Privacy Policy</h1>
+          <p className="mt-6 leading-8 text-charcoal/72">
+            Pagina informativa predisposta per il pacchetto vetrina. Prima della
+            pubblicazione definitiva va completata con ragione sociale, contatti
+            del titolare, strumenti analytics effettivamente installati e gestione
+            dei consensi.
+          </p>
         </div>
       </section>
     </main>

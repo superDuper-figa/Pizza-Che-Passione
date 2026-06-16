@@ -1,6 +1,7 @@
 "use client";
 
 import { Navigation } from "lucide-react";
+import Link from "next/link";
 import { useEffect, useState } from "react";
 
 type SiteHeaderProps = {
@@ -52,7 +53,7 @@ export function SiteHeader({ mapsUrl, initialTone = "dark" }: SiteHeaderProps) {
         className="mx-auto flex h-20 max-w-7xl items-center justify-between px-5 md:px-8"
         aria-label="Navigazione principale"
       >
-        <a href="/#top" className={`focus-ring flex items-center gap-3 transition-colors duration-100 ${textClass}`}>
+        <Link href="/#top" className={`focus-ring flex items-center gap-3 transition-colors duration-100 ${textClass}`}>
           <span className="grid size-11 place-items-center border border-charcoal bg-charcoal text-lg font-semibold text-panna">
             PC
           </span>
@@ -64,25 +65,25 @@ export function SiteHeader({ mapsUrl, initialTone = "dark" }: SiteHeaderProps) {
               Ex Pizzeria Unica
             </span>
           </span>
-        </a>
+        </Link>
         <div
           className={`hidden items-center gap-8 text-sm font-black uppercase tracking-[0.14em] transition-colors duration-100 md:flex ${navTextClass}`}
         >
-          <a className="focus-ring hover:text-basil" href="/#storia">
+          <Link className="focus-ring hover:text-basil" href="/#storia">
             Storia
-          </a>
-          <a className="focus-ring hover:text-tomato" href="/menu">
+          </Link>
+          <Link className="focus-ring hover:text-tomato" href="/menu">
             Menu
-          </a>
-          <a className="focus-ring hover:text-basil" href="/#eventi">
+          </Link>
+          <Link className="focus-ring hover:text-basil" href="/#eventi">
             Eventi
-          </a>
-          <a className="focus-ring hover:text-tomato" href="/#commenti">
+          </Link>
+          <Link className="focus-ring hover:text-tomato" href="/#commenti">
             Commenti
-          </a>
-          <a className="focus-ring hover:text-basil" href="/#contatti">
+          </Link>
+          <Link className="focus-ring hover:text-basil" href="/#contatti">
             Contatti
-          </a>
+          </Link>
         </div>
         <a
           className="focus-ring inline-flex items-center gap-2 border border-charcoal/80 bg-charcoal/90 px-4 py-3 text-sm font-bold uppercase tracking-[0.12em] text-panna shadow-sm transition hover:border-tomato hover:bg-tomato"
