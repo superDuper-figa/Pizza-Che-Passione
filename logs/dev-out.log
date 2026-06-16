@@ -48,3 +48,14 @@
  GET / 200 in 1884ms
  GET /menu 200 in 4887ms
  GET / 200 in 1457ms
+ ✓ Compiled in 6.4s (699 modules)
+ ✓ Compiled in 528ms (259 modules)
+ ✓ Compiled in 477ms (259 modules)
+ ✓ Compiled in 981ms (259 modules)
+ ✓ Compiled in 2.3s (699 modules)
+ ✓ Compiled in 813ms (259 modules)
+ ✓ Compiled in 2.2s (699 modules)
+ ✓ Compiled in 1351ms (699 modules)
+ ✓ Compiled in 397ms (259 modules)
+ ✓ Compiled in 733ms (259 modules)
+ ✓ Compiled in 1271ms (699 modules)

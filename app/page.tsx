@@ -170,32 +170,6 @@ export default function Home() {
         </div>
       </section>
 
-      <section data-nav-tone="light" className="mx-auto grid max-w-7xl gap-10 px-5 py-20 md:grid-cols-[0.9fr_1.1fr] md:px-8">
-        <Reveal>
-          <p className="text-sm font-bold uppercase tracking-[0.2em] text-tomato">
-            Benvenuti
-          </p>
-          <h2 className="mt-4 font-display text-5xl leading-tight md:text-6xl">
-            Una pizzeria di riferimento, con un nome nuovo da ricordare.
-          </h2>
-        </Reveal>
-        <Reveal delay={0.1} className="text-lg leading-8 text-charcoal/76">
-          <p>
-            Pizza Che Passione raccoglie l&apos;eredita di Pizzeria Unica e la
-            rende piu facile da trovare online. Il sito mette al centro cio che
-            conta per chi cerca una pizzeria locale: posizione, contatti,
-            identita chiara e un assaggio dell&apos;offerta.
-          </p>
-          <div className="mt-8 grid gap-4 sm:grid-cols-3">
-            {["Mobile first", "Mappa immediata", "Brand chiaro"].map((item) => (
-              <div key={item} className="border-l-2 border-basil pl-4">
-                <p className="font-bold text-charcoal">{item}</p>
-              </div>
-            ))}
-          </div>
-        </Reveal>
-      </section>
-
       <section id="storia" data-nav-tone="dark" className="bg-charcoal py-20 text-panna">
         <div className="mx-auto grid max-w-7xl gap-12 px-5 md:grid-cols-[1fr_1fr] md:px-8">
           <Reveal className="group relative min-h-[460px] overflow-hidden border border-panna/14">
@@ -216,11 +190,6 @@ export default function Home() {
               concreta: una pizza da quartiere, facile da scegliere e ancora
               piu facile da raggiungere.
             </p>
-            <div className="mt-9 grid gap-5">
-              <Feature title="Identita" text="Il cambio nome e spiegato subito, senza perdere chi conosceva Pizzeria Unica." />
-              <Feature title="Ricerca locale" text="La posizione e ripetuta nei punti decisivi per aiutare Google e utenti." />
-              <Feature title="Conversione" text="CTA essenziali: chiamata/contatto, mappa e Facebook." />
-            </div>
           </Reveal>
         </div>
       </section>
@@ -461,15 +430,6 @@ function TrustItem({ value, label }: { value: string; label: string }) {
       <p className="mt-2 text-xs font-bold uppercase tracking-[0.2em] text-panna/62">
         {label}
       </p>
-    </div>
-  );
-}
-
-function Feature({ title, text }: { title: string; text: string }) {
-  return (
-    <div className="border-l border-basil pl-5">
-      <h3 className="font-display text-2xl">{title}</h3>
-      <p className="mt-2 leading-7 text-panna/68">{text}</p>
     </div>
   );
 }
