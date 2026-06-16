@@ -102,7 +102,7 @@ export default function Home() {
       <section
         id="top"
         data-nav-tone="dark"
-        className="relative min-h-[92vh] pt-24 md:min-h-[88vh]"
+        className="relative min-h-[92vh] pt-32 md:min-h-[88vh] md:pt-24"
         aria-labelledby="hero-title"
       >
         <div className="absolute inset-0 -z-10 bg-charcoal">

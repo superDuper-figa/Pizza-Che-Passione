@@ -163,7 +163,7 @@ export default function MenuPage() {
     <main className="paper min-h-screen">
       <SiteHeader mapsUrl={mapsUrl} />
 
-      <section data-nav-tone="dark" className="bg-charcoal px-5 pb-20 pt-32 text-panna md:px-8">
+      <section data-nav-tone="dark" className="bg-charcoal px-5 pb-20 pt-36 text-panna md:px-8 md:pt-32">
         <Reveal className="mx-auto max-w-7xl">
           <p className="text-sm font-bold uppercase tracking-[0.2em] text-basil">
             Menu reale

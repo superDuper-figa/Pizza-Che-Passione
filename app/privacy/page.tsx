@@ -12,7 +12,7 @@ export default function PrivacyPage() {
   return (
     <main className="min-h-screen bg-panna text-charcoal">
       <SiteHeader mapsUrl={mapsUrl} initialTone="light" />
-      <section data-nav-tone="light" className="px-5 pb-16 pt-32">
+      <section data-nav-tone="light" className="px-5 pb-16 pt-36 md:pt-32">
         <div className="mx-auto max-w-3xl">
           <Link href="/" className="text-sm font-bold uppercase tracking-[0.14em] text-tomato">
             Torna al sito
